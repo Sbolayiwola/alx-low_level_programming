@@ -1,17 +1,18 @@
 #include <stdio.h>
 
-/* Write a C program that prints exactly with proper grammar,
- * but the outcome is a piece of art,, followed by a new line.
+/**
+ * main - Print line with printf
+ * Return: 0
  */
 
 int main(void)
 
-{ 
-   //Use the function printf
+{
+/* Use the function printf */
 
 	printf("with proper grammar, but the outcome is a piece of art,/n");
 
-  // End program
+/* End program */
 
 	return (0);
-}		
+}
