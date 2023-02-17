@@ -9,9 +9,9 @@ int main(void)
 { 
   // Use the function puts
  
-	puts("\"Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 
   // End program
 
-	return (0);
+	return 0;
 }	
