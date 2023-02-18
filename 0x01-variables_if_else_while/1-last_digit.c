@@ -12,14 +12,17 @@ int main(void)
 {
 	int n;
 
+	int f;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	if (n > 0)
-		1-last_digit.cprintf("%d is positive\n", n);
-	else if (n == 0)
-		printf("%d is zero\n", n);
-	else
-		printf("%d is negative\n", n);
+
+	f = n % 10;
+	if (f > 5)
+		printf("Last digit of %d is %d and is greater than 5\n", n, f);
+	if (f == 0)
+		printf("Last digit of %d is %d and is 0\n", n, f);
+	if (f < 6 && f != 0)
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, f);
 	return (0);
 }
