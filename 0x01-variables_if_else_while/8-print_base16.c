@@ -11,7 +11,7 @@ int main(void)
 
 	c = '0';
 		while
-			(c < 'f')
+			(c <= 'f')
 	{
 		if (c > '9' && c < 'a')
 			c = 'a';
