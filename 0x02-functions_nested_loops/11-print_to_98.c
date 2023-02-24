@@ -9,7 +9,7 @@
 
 void print_to_98(int n)
 {
-	int m;
+	char m;
 
 	if (n >= 0 && n <= 98)
 	{
