@@ -7,34 +7,25 @@
 
 int main(void)
 {
-	int i;
-	long j;
-	long k;
+	long long int a = 1;
+	long long int b = 2;
+	long long int c;
+	int count = 2;
 
-	i = 0;
-	j = 1;
-	k = 2;
-	while
-	(i < 50)
+	printf("%lld, %lld", a, b);
+
+	while (count < 50)
 	{
-		if
-		(i == 0)
-		{
-			printf("%ld", j);
+		c = a + b;
 
-			else if
-			(i == 1)
-			printf(", %ld", k);
+		printf(", %lld", c);
 
-			else
-			{
-			k += j;
-			j = k - j;
-			printf(", %ld", k);
-			}
-			++i;
-		}
+		a = b;
+		b = c;
+		count++;
 	}
+
 	printf("\n");
+
 	return (0);
 }
