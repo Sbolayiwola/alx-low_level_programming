@@ -7,18 +7,18 @@
 
 int main(void)
 {
-	long long int a = 1;
-	long long int b = 2;
-	long long int c;
+	long int a = 1;
+	long int b = 2;
+	long int c;
 	int count = 2;
 
-	printf("%lld, %lld", a, b);
+	printf("%ld, %ld", a, b);
 
 	while (count < 50)
 	{
 		c = a + b;
 
-		printf(", %lld", c);
+		printf(", %ld", c);
 
 		a = b;
 		b = c;
