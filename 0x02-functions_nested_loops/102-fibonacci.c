@@ -25,7 +25,7 @@ int mainn(void)
 		else if
 		(i == 1)
 		{
-			printf(", %ld", k)
+			printf(", %ld", k);
 		}
 		else
 		{
