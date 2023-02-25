@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int mainn(void)
+int main(void)
 {
 	int i;
 	long j;
@@ -21,9 +21,11 @@ int mainn(void)
 		(i == 0)
 		{
 			printf("%ld", j);
+
 			else if
 			(i == 1)
 			printf(", %ld", k);
+
 			else
 			{
 			k += j;
